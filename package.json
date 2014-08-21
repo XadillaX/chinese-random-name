@@ -1,0 +1,38 @@
+{
+  "name": "chinese-random-name",
+  "version": "0.0.1",
+  "description": "Generate Chinese name using Node.js.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "sugar": "~1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/XadillaX/chinese-random-name.git"
+  },
+  "keywords": [
+    "chinese",
+    "name",
+    "name",
+    "generator",
+    "chinese",
+    "name",
+    "random",
+    "random",
+    "name"
+  ],
+  "author": "XadillaX",
+  "license": "GPLv2",
+  "readmeFilename": "README.md",
+  "gitHead": "706e3016556582f008d1bc6b8fd167184973bbe6",
+  "bugs": {
+    "url": "https://github.com/XadillaX/chinese-random-name/issues"
+  }
+}
