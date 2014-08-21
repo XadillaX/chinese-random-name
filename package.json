@@ -1,6 +1,6 @@
 {
   "name": "chinese-random-name",
-  "version": "0.0.2",
+  "version": "0.0.2-fix",
   "description": "Generate Chinese name using Node.js.",
   "main": "index.js",
   "directories": {

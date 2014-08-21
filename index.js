@@ -2,7 +2,7 @@ require("sugar");
 var surnames = require("./lib/surname");
 var names = require("./lib/name");
 
-exports.surnames = sunames;
+exports.surnames = surnames;
 exports.names = names;
 
 exports.generate = function(len) {
