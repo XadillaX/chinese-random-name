@@ -33,11 +33,9 @@ console.log(randomName.surnames.getOne());
 Using `get` / `get1` / `get2` / `get3` function in `names`.
 
 + `get`: returns a random name and its length between 1 and 3.
-+ `get1`: returns a random name with length 1. (you can pass a parameter which
-        may be `"金"` / `"木"` / `"水"` / `"火"` / `"土"` or leave it blank)
++ `get1`: returns a random name with length 1. (you can pass a parameter which may be `"金"` / `"木"` / `"水"` / `"火"` / `"土"` or leave it blank)
 + `get2`: returns a random name with length 2. (you can pass `"金金"` / `"金木"` / ... or leave it blank)
-+ `get3`: returns a random name with length 3. (you can pass `"金金金"` /
-        `"水火土"` / ... or leave it blank)
++ `get3`: returns a random name with length 3. (you can pass `"金金金"` / `"水火土"` / ... or leave it blank)
 
 Examples:
 
