@@ -49,6 +49,10 @@ randomName.names.get2("木水");
 randomName.names.get3("火火火");
 ```
 
+## Related Article
+
+http://xcoder.in/2014/09/01/how-i-made-chinese-random-x/
+
 ## Contribute
 
 You're welcome to fork and push requests!
