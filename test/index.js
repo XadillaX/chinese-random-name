@@ -1,9 +1,9 @@
-var assert = require('assert');
-var randomName = require('..');
+var assert = require("assert");
+var randomName = require("..");
 
 function assertLength (name, length) {
   var ok = !length ? ( name.length > 0 ) : name.length === length;
-  assert.ok(ok, 'Invlaid length!!' + name);
+  assert.ok(ok, "Invlaid length!!" + name);
 }
 
 function run () {
@@ -13,9 +13,9 @@ function run () {
   assertLength(randomName.names.get1(), 1);
   assertLength(randomName.names.get2(), 2);
   assertLength(randomName.names.get3(), 3);
-  assertLength(randomName.names.get1('火'), 1);
-  assertLength(randomName.names.get2('火火'), 2);
-  assertLength(randomName.names.get3('火火火'), 3);
+  assertLength(randomName.names.get1("火"), 1);
+  assertLength(randomName.names.get2("火火"), 2);
+  assertLength(randomName.names.get3("火火火"), 3);
 }
 
 for(var i = 0; i < 10000; i++) run();
