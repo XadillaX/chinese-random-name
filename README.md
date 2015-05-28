@@ -1,6 +1,6 @@
 # Chinese Random Name
 
-Generate Chinese name using Node.js with ♡.
+Generate Chinese name using Node.js with 💗.
 
 ## Installation
 
@@ -55,5 +55,5 @@ http://xcoder.in/2014/09/01/how-i-made-chinese-random-x/
 
 ## Contribute
 
-You're welcome to fork and push requests!
+You're welcome to fork and make pull requests!
 
