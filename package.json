@@ -1,6 +1,6 @@
 {
   "name": "chinese-random-name",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Generate Chinese name using Node.js.",
   "main": "index.js",
   "directories": {
@@ -28,7 +28,6 @@
   "author": "XadillaX",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "706e3016556582f008d1bc6b8fd167184973bbe6",
   "bugs": {
     "url": "https://github.com/XadillaX/chinese-random-name/issues"
   }

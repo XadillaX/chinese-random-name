@@ -26,4 +26,3 @@ exports.generate = function(len) {
     var n = surname + name;
     return n;
 };
-
