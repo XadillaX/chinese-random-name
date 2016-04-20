@@ -16,6 +16,6 @@ clean: clean-build
 	@rm -rf node_modules
 
 test:
-	@node test/index.js
+	@node test/test.js
 
 .PHONY: test

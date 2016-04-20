@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>花名测试</title>
+</head>
+<body>
+    <ul id="names">
+    </ul>
+
+    <button id="refresh">刷新</button>
+
+    <script src="https://upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.3.min.js"></script>
+    <script src="../random.min.js"></script>
+    <script>
+        $(function() {
+            gen();
+
+            $("#refresh").click(function() {
+                $("#names").text("");
+                gen();
+            });
+        });
+
+        function append(name, meta) {
+            $("#names").append("<li style=\"line-height: 23px;\"><strong>" + name + "<\/strong> - " + meta + "<\/li>");
+        }
+
+        function gen() {
+            append(window.chineseRandomName.generate(), "随机姓加名");
+            append(window.chineseRandomName.surnames.getOne(), "随机姓");
+            append(window.chineseRandomName.names.get(), "随机名");
+            append(window.chineseRandomName.names.get1(), "随机单名");
+            append(window.chineseRandomName.names.get2(), "随机双名");
+            append(window.chineseRandomName.names.get3(), "随机三名");
+            append(window.chineseRandomName.names.get1("火"), "随机单名🔥");
+            append(window.chineseRandomName.names.get2("火火"), "随机双名🔥🔥");
+            append(window.chineseRandomName.names.get3("火火火"), "随机三名🔥🔥🔥");
+        }
+    </script>
+</body>
+</html>
