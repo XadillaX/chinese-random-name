@@ -1,0 +1,28 @@
+{
+  "name": "chinese-random-name",
+  "description": "Generate Chinese name using Node.js.",
+  "main": "random.min.js",
+  "authors": [
+    "XadillaX"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chinese",
+    "name",
+    "name",
+    "generator",
+    "chinese",
+    "name",
+    "random",
+    "random",
+    "name"
+  ],
+  "homepage": "https://github.com/XadillaX/chinese-random-name",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
