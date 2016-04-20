@@ -1,4 +1,3 @@
-require("sugar");
 var surnames = require("./lib/surname");
 var names = require("./lib/name");
 

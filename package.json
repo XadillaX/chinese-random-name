@@ -1,15 +1,11 @@
 {
   "name": "chinese-random-name",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Generate Chinese name using Node.js.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "sugar": "~1.4.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "node test/index.js"
   },
@@ -30,5 +26,13 @@
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/XadillaX/chinese-random-name/issues"
+  },
+  "dependencies": {
+    "flatten": "^1.0.2",
+    "random-to": "0.0.2"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "uglify-js": "^2.6.2"
   }
 }
