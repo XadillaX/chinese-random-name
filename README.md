@@ -1,18 +1,18 @@
 # Chinese Random Name
 
-Generate Chinese name using Node.js with ❤️.
+Generate Chinese name by using Node.js with ❤️.
 
 ## Installation
 
 ```sh
-$ npm install chinese-random-name
+$ npm --save install chinese-random-name
 ```
 
 ## Usage
 
 ### Generate a Full Name Automatically
 
-Using `generate` function:
+Using `generate()` function:
 
 ```javascript
 var randomName = require("chinese-random-name");
