@@ -18,7 +18,7 @@ exports.generate = function(len) {
         if(surname.length === 1) name = names.get2();
         if(surname.length === 2) name = names.get1();
     } else if(len === 4) {
-        surname = surname.getOne();
+        surname = surnames.getOne();
         if(surname.length === 1) name = names.get3();
         if(surname.length === 2) name = names.get2();
     }
