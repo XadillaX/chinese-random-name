@@ -6,8 +6,8 @@ install:
 
 build: install
 	@$(BROWSERIFY_PATH) random.js -s chineseRandomName > random.min.js && \
-		$(UGLIFYJS_PATH) random.min.js -o random.min.js --reserved "module,exports,chineseRandomName" \
-		--source-map random.min.map -c -m sort
+		node --stack_size=10000 $(UGLIFYJS_PATH) random.min.js -o random.min.js --reserved "module,exports,chineseRandomName" \
+		-c -m --source-map
 
 clean-build:
 	@rm -f random.min.js
