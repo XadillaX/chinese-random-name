@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "8"
+  - "10"
+install:
+- npm i
+script:
+- npm run test
+after_script: istanbul cover node test/test.js --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
