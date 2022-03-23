@@ -25,4 +25,4 @@ build/Release
 node_modules
 
 *.swp
-
+.vscode
