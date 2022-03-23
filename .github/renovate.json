@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "config:base",
+    ":disableDependencyDashboard"
+  ],
+  "ignoreDeps": [
+    "eslint",
+    "eslint-config-egg"
+  ],
+  "lockFileMaintenance": {
+    "enabled": false
+  },
+  "updatePinnedDependencies": false,
+  "rangeStrategy": "bump"
+}
