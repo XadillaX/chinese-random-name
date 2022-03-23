@@ -5,7 +5,8 @@
   "main": "random.js",
   "scripts": {
     "test": "node test/test.js",
-    "postinstall": "rm -f package-lock.json"
+    "postinstall": "rm -f package-lock.json",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
