@@ -24,4 +24,4 @@ function run() {
   assertLength(randomName.names.get3('火火火'), 3);
 }
 
-for (let i = 0; i < 10000; i++) run();
+for (let i = 0; i < 1000; i++) run();
