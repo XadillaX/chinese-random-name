@@ -26,3 +26,5 @@ node_modules
 
 *.swp
 .vscode
+random.min.js
+*.map
