@@ -1,17 +1,27 @@
 {
   "name": "chinese-random-name",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Generate Chinese name using Node.js.",
   "main": "random.js",
   "scripts": {
     "test": "node test/test.js",
     "postinstall": "rm -f package-lock.json",
-    "lint": "eslint ."
+    "prepublishOnly": "npm run build",
+    "lint": "eslint .",
+    "build": "make build",
+    "build-dev": "make build-dev"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/XadillaX/chinese-random-name.git"
   },
+  "files": [
+    "dict",
+    "lib",
+    "random.js",
+    "random.min.js",
+    "random.min.js.map"
+  ],
   "keywords": [
     "chinese",
     "name",
