@@ -44,6 +44,6 @@
     "browserify": "^17.0.0",
     "eslint": "^8.11.0",
     "eslint-config-egg": "^11.0.1",
-    "uglify-js": "^3"
+    "uglify-js": "^3.17.4"
   }
 }
